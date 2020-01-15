@@ -31,6 +31,7 @@ public class CommandLineCalculator implements CommandLineRunner {
             Stack<String> tokens = new Stack<String>();
             tokens.addAll(Arrays.asList(s.trim().split("[ \t]+")));
             if (tokens.peek().equals("")) continue;
+
             try {
                 double r = simpleCalculator.calculate(tokens);
                 if (!tokens.empty()) throw new Exception();
