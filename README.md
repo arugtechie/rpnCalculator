@@ -6,3 +6,6 @@ A Unix like or CommandLineCalculator class injects a SimpleCalculator. This Simp
  
 BaseArithmeticOperator abstract class declares four operators and SimpleArithmeticOperator extends to provide implementation. This allows for future operators.
 
+##Trade-offs
+##Solution/Design diagrams -- TBD
+##Few more edge test cases can be added.
